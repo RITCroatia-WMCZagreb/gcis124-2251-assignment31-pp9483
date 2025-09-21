@@ -31,11 +31,11 @@ def trunk(num):
     
 
 def main():
-   num = input("Please enter a numeric value:")
+   num = input("Enter a numeric value: ")
    print(num,"factorial =",fact(num))
-   num1 = float(input("Please enter a numeric value:"))
-   print("The square root of",num1,"is",root(num1))
-   num2 = float(input("Please enter a numeric value:"))
+   num1 = float(input("Enter a numeric value: "))
+   print("The square root of",num1,"=",root(num1))
+   num2 = float(input("Enter a numeric value: "))
    print(num2,"truncated =",trunk(num2))
 
    
